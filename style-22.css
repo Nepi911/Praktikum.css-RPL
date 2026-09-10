@@ -1,0 +1,100 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* umum */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f5ff; 
+  color: #4a4a68;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+/* judul */
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #3e3860;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 24px;
+}
+
+/* container menu */
+.menu ul, .area-menu {
+  padding: 12px;
+  max-width: 420px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 24px; 
+  box-shadow: 0 10px 30px rgba(162, 150, 206, 0.15); 
+  border: 2px solid #f0ebff;
+  list-style: none;
+}
+
+/* item menu */
+.menu li, .area-menu li {
+  list-style-type: none;
+  padding: 16px 20px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  border-bottom: none; 
+  background-color: #faf9fe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* hover menu */
+.area-menu li:hover, .menu li:hover {
+  background-color: #f0eafc;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 15px rgba(147, 112, 219, 0.12);
+}
+
+/* nama menu */
+.nama-menu {
+  font-weight: 600;
+  color: #3e3860;
+  font-size: 0.95rem;
+}
+
+/* harga */
+.harga {
+  color: #7c5cbf;  
+  font-weight: 700;
+  font-size: 1rem;
+  background: #f3edff;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+/* btn pesan */
+.btn-pesan {
+  display: block;
+  margin: 28px auto 0 auto;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #7c5cbf 0%, #a283e1 100%); 
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 50px; 
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(124, 92, 191, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* hover btn */
+.btn-pesan:hover {
+  background: linear-gradient(135deg, #6b4cae 0%, #9171d0 100%);
+  
+  box-shadow: 0 12px 24px rgba(124, 92, 191, 0.4);
+}
+
+.btn-pesan:active {
+  transform: translateY(0) scale(0.98);
+}
+

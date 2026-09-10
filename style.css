@@ -1,0 +1,33 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(24, 116, 158)
+}
+
+.highlight {
+  background-color: rgb(194, 255, 10);
+  font-weight: bold;
+}
+.highlight {
+  background-color: rgb(132, 177, 43);
+  font-weight: bold;
+}
+
+#Home {
+    color:darkcyan;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2, h4, h5 {
+    font-family: inherit;
+    color:burlywood
+}
+
+div p {
+  color: red;
+}
+
+div > p {
+  color: rgb(182, 143, 85);
+}
+

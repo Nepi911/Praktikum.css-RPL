@@ -1,0 +1,55 @@
+/* Grouping Selector */
+h1, h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  color: #323f69; 
+}
+
+/* Pengaturan halaman */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: black; 
+}
+
+/* Descendant Selector */
+.menu li {
+  list-style-type: none;
+  padding: 8px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* Stylist tampilan daftar menu */
+.menu ul {
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+.nama-menu {
+  font-weight: bold;
+}
+
+.harga {
+  color: green; 
+  text-align: right;
+}
+
+/* Tombol Pesan */
+.btn-pesan {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #1F4E79;
+  color: white;
+  border: none;
+}
+
+/* Tombol item menu */
+.btn-pesan:hover {
+  background-color: #153350;
+}
+
+.area-menu li:hover {
+  background-color: #eaf1f8;
+}
